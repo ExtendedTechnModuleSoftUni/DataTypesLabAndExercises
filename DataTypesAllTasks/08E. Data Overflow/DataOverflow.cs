@@ -15,11 +15,8 @@ class DataOverflow
         uint uintMaxValue = uint.MaxValue;
         ulong ulongMaxValue = ulong.MaxValue;
 
-
         GetBiggerType(max, byteMaxValue, ushortMaxValue, uintMaxValue, ulongMaxValue);
         GetSmallerType(max, min, byteMaxValue, ushortMaxValue, uintMaxValue, ulongMaxValue);
-
-
     }
 
     public static void GetSmallerType(decimal max, decimal min, byte byteMaxValue, ushort ushortMaxValue, uint uintMaxValue, ulong ulongMaxValue)
